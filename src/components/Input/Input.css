@@ -3,7 +3,8 @@
     color: #fff;
     box-sizing: border-box;
     border: none;
-    padding: 1vh 1vw;
-    display: inline;
-    width: max-content;
+    padding: 5px;
+    display: inline-block;
+    margin: 0 0 0.5vh 0.5vw;
+    outline: none;
 }
