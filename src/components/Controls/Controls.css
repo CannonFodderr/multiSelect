@@ -1,0 +1,23 @@
+.ControlsWrapper{
+    /* display: flex; */
+    /* justify-content: start; */
+}
+.ctl-btn{
+    display: inline-block;
+    margin: auto;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    box-sizing: border-box;
+    color: #fff;
+    width: 50%;
+    outline: none;
+}
+
+.ctl-btn:hover{
+    color: blue;
+}
+
+.ClearSelected{
+    border-right: 1px solid #fff;
+}

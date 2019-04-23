@@ -1,0 +1,24 @@
+.SelectWrapper{
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    background-color: #3e3e3e;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 5%;
+}
+
+.SearchWrapper{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #3e3e3e;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    border: 1px solid #fff;
+}
+
+.ListWrapper{
+    width: 100%;
+}

@@ -1,0 +1,53 @@
+.CatList{
+    border: none;
+    outline: none;
+    width: 100%;
+    margin: 0;
+    background: #3e3e3e;
+    color: #fff;
+    padding: 1vh 1vw;
+    box-sizing: border-box;
+    height: 100px;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.option{
+    cursor: pointer;
+}
+
+.option:hover{
+    background: #3e3e;
+}
+.option:nth-of-type(2n){
+    background: #c1c1c1;
+}
+.option:nth-of-type(2n):hover{
+    background: #3e3e;
+}
+.CheckMark{
+    width: 20px;
+    height: 100%;
+    display: inline-block;
+    margin-right: 1vw;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #3e3e3e; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}

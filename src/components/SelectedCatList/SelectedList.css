@@ -1,0 +1,25 @@
+.SelectedList{
+    display: inline-block;
+    margin: 1vh 0 0 0;
+    box-sizing: border-box;
+}
+
+.selectedItem{
+    font-size: 0.9rem;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 0 0.5vh 0.5vw;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.removeItem{
+    cursor: pointer;
+    margin: 0 0 0 0.5vw;
+}
+
+.removeItem:hover{
+    color: blue;
+}
